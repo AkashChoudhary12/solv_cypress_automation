@@ -1,0 +1,10 @@
+{
+    "baseUrl":"https://solv-dev.kizora.in/login",
+    "validemailID":"solv@kizora.com",
+    "validpassword":"Kizora@123",
+    "invalidemailID":"bjabjaj",
+    "invalidpassword":"12345de",
+    "projectname":"Akash Constructions",
+    "organisationname":"SOLV BV"
+    
+}

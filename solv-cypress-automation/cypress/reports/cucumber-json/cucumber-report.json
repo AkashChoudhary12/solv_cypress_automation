@@ -1,0 +1,534 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 4,
+        "name": "",
+        "before": [
+          {
+            "result": {
+              "duration": 8000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I navigate Login Page",
+            "result": {
+              "duration": 2133000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "login;to-check-the-login-page-components-(tc-01)",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "To check the login page components (TC-01)",
+        "steps": [
+          {
+            "keyword": "Then ",
+            "line": 10,
+            "name": "Validate all feilds in login Page",
+            "result": {
+              "duration": 89000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "after": [
+          {
+            "result": {
+              "duration": 26000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 4,
+        "name": "",
+        "before": [
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I navigate Login Page",
+            "result": {
+              "duration": 278000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "login;to-check-login-functionality-with-valid-email-id-and-valid-password--(tc-02)",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "To check Login functionality with valid email id and valid password  (TC-02)",
+        "steps": [
+          {
+            "keyword": "Then ",
+            "line": 15,
+            "name": "Enter valid Email-id and valid Password",
+            "result": {
+              "duration": 1351000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 16,
+            "name": "Tap on login",
+            "result": {
+              "duration": 126000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 17,
+            "name": "Validate user should be able to login only with valid email id and valid password",
+            "result": {
+              "duration": 1895000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "after": [
+          {
+            "result": {
+              "duration": 132000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 4,
+        "name": "",
+        "before": [
+          {
+            "result": {
+              "duration": 12000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I navigate Login Page",
+            "result": {
+              "duration": 336000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "login;to-check-login-functionality-with-invalid-email-id-and-valid-password--(tc-03)",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "To check Login functionality with Invalid email id and valid password  (TC-03)",
+        "steps": [
+          {
+            "keyword": "Then ",
+            "line": 22,
+            "name": "Enter invalid Email-id and valid Password",
+            "result": {
+              "duration": 1177000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 23,
+            "name": "Tap on login",
+            "result": {
+              "duration": 101000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 24,
+            "name": "user should not be able to login \u0026 Validation message should be displayed 'Login Failed'",
+            "result": {
+              "duration": 13000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "after": [
+          {
+            "result": {
+              "duration": 10000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 4,
+        "name": "",
+        "before": [
+          {
+            "result": {
+              "duration": 7000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I navigate Login Page",
+            "result": {
+              "duration": 259000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "login;to-check-login-functionality-with-valid-email-id-and-invalid-password--(tc-04)",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "To check Login functionality with valid email id and Invalid password  (TC-04)",
+        "steps": [
+          {
+            "keyword": "Then ",
+            "line": 29,
+            "name": "Enter valid Email-id and Invalid Password",
+            "result": {
+              "duration": 1307000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 30,
+            "name": "Tap on login",
+            "result": {
+              "duration": 119000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 31,
+            "name": "user should not be able to login \u0026 Validation message should be displayed 'Login Failed'",
+            "result": {
+              "duration": 110000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "after": [
+          {
+            "result": {
+              "duration": 21000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 4,
+        "name": "",
+        "before": [
+          {
+            "result": {
+              "duration": 11000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I navigate Login Page",
+            "result": {
+              "duration": 400000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "login;to-check-login-functionality-with-invalid-email-id-and-invalid-password--(tc-05)",
+        "keyword": "Scenario",
+        "line": 33,
+        "name": "To check Login functionality with Invalid email id and Invalid password  (TC-05)",
+        "steps": [
+          {
+            "keyword": "Then ",
+            "line": 35,
+            "name": "Enter Invalid Email-id and Invalid Password",
+            "result": {
+              "duration": 1256000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 36,
+            "name": "Tap on login",
+            "result": {
+              "duration": 100000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 37,
+            "name": "user should not be able to login \u0026 Validation message should be displayed 'Login Failed'",
+            "result": {
+              "duration": 15000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "after": [
+          {
+            "result": {
+              "duration": 7000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 4,
+        "name": "",
+        "before": [
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I navigate Login Page",
+            "result": {
+              "duration": 360000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "login;to-check-the-forgot-password-link--(tc-06)",
+        "keyword": "Scenario",
+        "line": 39,
+        "name": "To check the Forgot Password Link  (TC-06)",
+        "steps": [
+          {
+            "keyword": "When ",
+            "line": 41,
+            "name": "Tap on Forgot password link",
+            "result": {
+              "duration": 810000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 42,
+            "name": "Validate User should be redirected to a new link",
+            "result": {
+              "duration": 15000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 43,
+            "name": "Validate After redirected to a new link text box to enter the email id, continue button and cancel button",
+            "result": {
+              "duration": 33000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 44,
+            "name": "Tapping on cancel button which should redirect user to Login page",
+            "result": {
+              "duration": 123000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "after": [
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "login",
+    "keyword": "Feature",
+    "line": 2,
+    "name": "Login",
+    "uri": "cypress\\e2e\\login.feature"
+  }
+]
